@@ -1,0 +1,10 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack project seed",
+  "main": "meta.js",
+  "scripts": {
+  },
+  "author": "liljay",
+  "license": "ISC"
+}

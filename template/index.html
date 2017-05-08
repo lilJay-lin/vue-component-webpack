@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-research-unit</title>
+    <script src="node_modules/vue/dist/vue.min.js"></script>
+    <script src="dist/build.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+  <script>
+    Vue.component('App', window.components.App);
+    new Vue({
+      render: function (h) {
+        return h('App')
+      },
+      created: function (){
+        console.log('created')
+      }
+    }).$mount('#app')
+  </script>
+</html>
